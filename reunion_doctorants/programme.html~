@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Solutions 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20091102
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Réunion des doctorants</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31723723-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div id="logo">
+		<h1><a href="#">Réunion des doctorants de l'ESP</a></h1>
+	</div>
+	<hr />
+	<!-- end #logo -->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="./index.html" class="first">Présentaion</a></li>
+				<li><a href="./participants.html">Participants</a></li>	
+				<li><a href="#">Programme</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+	</div>
+	<!-- end #header -->
+	<!-- end #header-wrapper -->
+	<div id="page">
+		<div id="content">
+		  <div class="post">
+			<h2 class="title"><a href="#">Programme de la réunion</a></h2>
+				<div class="entry"><br>
+				<table border="0" bordercolor="#FFFFFF" style="background-color:#FFFFFF" width="100%" cellpadding="3" cellspacing="3">
+	<tr>
+		<td>	</td>
+		<td><center><h2>Mercredi</h2></center></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>14h00	</td>
+		<td>Claire Christophe</td>
+		<td><a href=# title="Lymphocytes T cytotoxiques versus cellules tumorales">CTLs vs cellules tumorales</a></td>
+	</tr>
+	<tr>
+		<td>14h30	</td>
+		<td>Hélène Lescornel</td>
+		<td>Deformation de distributions et estimation paramétrique avec la distance de Wasserstein</td>
+	</tr>
+	<tr>
+		<td>15h00	</td>
+		<td>Mawaki Manou</td>
+		<td>Etude des diffusions anormales</td>
+	</tr>
+	<tr>
+		<td>15h30	</td>
+		<td>Gaëlle Chastaing</td>
+		<td>Analyse de sensibilité pour variables dépendantes</td>
+	</tr>
+	<tr>
+		<td><h3>Pause	</h3></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>16h30	</td>
+		<td>Pierre Monmarché</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>16h45	</td>
+		<td>Yuriy Nemish</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>17h00	</td>
+		<td>Claire Boyer</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>	</td>
+		<td><center><h2>Jeudi</h2></center></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>9h30	</td>
+		<td>Caroline Hurault-Delarue </td>
+		<td><a href=# title="Analyse statistique de l'exposition aux psychotropes pendant la grossesse et survenue de malformations congénitales et/ou de pathologies infantiles: développements méthodologiques
+et application aux données de la cohorte EFEMERIS"> Analyse statistique de l'exposition aux ...</a></td>
+	</tr>
+	<tr>
+		<td>9h45	</td>
+		<td>Daniel Kious</td>
+		<td>Reinforcement learning in social networks</td>
+	</tr>
+	<tr>
+		<td>10h15	</td>
+		<td>Anthony Bigot</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>10h30	</td>
+		<td>Malika Chassan</td>
+		<td>Développements statistiques sur la précision et l'intégrité en positionnement GPS EGNOS</td>
+	</tr>
+	<tr>
+		<td><h3>Pause	</h3></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>11h15	</td>
+		<td>Anne-Claire Brunet</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>11h30	</td>
+		<td>Raphael Bouyrie</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>11h45	</td>
+		<td>Adil Ahidar</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td><h3>Pause buffet</h3>	</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>14h00	</td>
+		<td>Benoit Huou</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>14h15	</td>
+		<td>Magali Champion</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>14h45	</td>
+		<td>Nil Venet</td>
+		<td>Champs gaussiens à accroissements stationnaires indexés par des variétés</td>
+	</tr>
+	<tr>
+		<td>15h00	</td>
+		<td>Vincent Montoussamy</td>
+		<td></td>
+	</tr>
+	<tr>	
+		<td>15h15</td>
+		<td>Lee Dinetan</td>
+		<td>Vers quoi tend l'économie de Marché?</td>
+	<tr>
+		<td><h3>Pause	</h3></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>16h45	</td>
+		<td>Kim Vuthy</td>
+		<td>Méthodes statistiques pour l'évaluation d'environnement d'éducation</td>
+	</tr>
+	<tr>
+		<td>17h00	</td>
+		<td>Mélanie Blazère</td>
+		<td></td>
+	</tr>
+</table>
+			</div>
+		  </div>
+		</div><!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>Informations </h2>
+					<ul>
+						<li><a href="#"><br>Amphithéatre Schwartz Bât. 1R3<br> Université Paul Sabatier <br> Institut de Mathématiques de Toulouse <br> 118 route de Narbonne <br> F-31062 Toulouse Cedex 9 </a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+
+	<!-- end #footer -->
+</body>
+</html>

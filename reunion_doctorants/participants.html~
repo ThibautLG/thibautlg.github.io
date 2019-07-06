@@ -1,0 +1,133 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Solutions 
+Description: A two-column, fixed-width design for 1024x768 screen resolutions.
+Version    : 1.0
+Released   : 20091102
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Réunion des doctorants</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31723723-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+	<div id="logo">
+		<h1><a href="#">Réunion des doctorants de l'ESP</a></h1>
+	</div>
+	<hr />
+	<!-- end #logo -->
+	<div id="header">
+		<div id="menu">
+			<ul>
+				<li><a href="./index.html" class="first">Présentaion</a></li>
+				<li><a href="#">Participants</a></li>	
+				<li><a href="./programme.html">Programme</a></li>
+			</ul>
+		</div>
+		<!-- end #menu -->
+	</div>
+	<!-- end #header -->
+	<!-- end #header-wrapper -->
+	<div id="page">
+		<div id="content">
+		  <div class="post">
+			<h2 class="title"><a href="#">Liste des participants</a></h2>
+				<div class="entry">
+				<ul>
+<li>Adil Ahidar</li>
+<li>Jean-Marc Azais</li>
+<li>Dominique Bakry</li>
+<li>Philippe Berthet</li>
+<li>*Anthnoy Bigot</li>
+<li>*Melanie  Blazere</li>
+<li>Dominique Bontemps</li>
+<li>*Claire Boyer</li>
+<li>Xavier Bressaud</li>
+<li>*Anne Claire Brunet</li>
+<li>*Raphael Bouyrie</li>
+<li>Clément Carré</li>
+<li>Julie Champion</li>
+<li>*Magali Champion</li>
+<li>Malika Chassan</li>
+<li>*Gaelle Chastaing</li>
+<li>*Claire Christophe</li>
+<li>Serge Cohen</li>
+<li>Laure Coutin</li>
+<li>Matthias De Lozzo</li>
+<li>Dominique Dedieu</li>
+<li>*Caroline Delarue</li>
+<li>Sébastien Gadat</li>
+<li>Santiago Gallon</li>
+<li>Fabrice Gamboa</li>
+<li>Valérie Garès</li>
+<li>Xavier Gendre</li>
+<li>Sébastien Gerchinovitz</li>
+<li>*Benoit Huou</li>
+<li>Aldéric Joulin</li>
+<li>*Daniel Kious</li>
+<li>Thierry Klein</li>
+<li>Thibaut Le Gouic</li>
+<li>Benoit Lepage</li>
+<li>*Hélène Lescornel</li>
+<li>Jean-Michel Loubès</li>
+<li>*Mawaki Manou</li>
+<li>Clément Marteau</li>
+<li>Guillaume Mijoule</li>
+<li>Laurent Miclo</li>
+<li>*Pierre Monmarché</li>
+<li>*Vincent Montoussamy</li>
+<li>Mawaki Manou</li>
+<li>*Yuriy Nemish</li>
+<li>Clément Pellegrini</li>
+<li>Pierre Petit</li>
+<li>Viet Hung Pham</li>
+<li>Laurent Risser</li>
+<li>Willy Rodriguez</li>
+<li>Florian Rohart</li>
+<li>Michael Solis Chacon</li>
+<li>*Nil Venet</li>
+					
+					
+				</ul>
+			</div>
+		  </div>
+		</div><!-- end #content -->
+		<div id="sidebar">
+			<ul>
+				<li>
+					<h2>Informations </h2>
+					<ul>
+						<li><a href="#"><br>Amphithéatre Schwartz Bât. 1R3 <br> Université Paul Sabatier <br> Institut de Mathématiques de Toulouse <br> 118 route de Narbonne <br> F-31062 Toulouse Cedex 9 </a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+
+	<!-- end #footer -->
+</body>
+</html>
