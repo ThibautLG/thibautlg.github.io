@@ -1,5 +1,6 @@
 ---
-layout: home
+layout: page
+title: Test
+permalink: /test/
 ---
-Priviet!!!
-Dégaine
+il manquait un titre!
