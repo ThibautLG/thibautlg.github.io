@@ -3,24 +3,17 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
-
-* Phone: [+91-123123](tel:+91-123123)
+* Email: [thibaut.le_gouic@math.cnrs.fr](mailto:thibaut.le_gouic+web@math.cnrs.fr)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> Rue Frédéric Joliot-Curie
 >
-> London
+> Marseille
 >
-> United Kingdom
+> France
 
 ---
 
-## Social
-
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)

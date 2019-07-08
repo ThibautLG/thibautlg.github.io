@@ -1,11 +1,10 @@
-title: Researcher
-url: "."
+title: Thibaut Le Gouic
+url: "https://thibautlg.github.io/"
 baseurl: ""
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
 
-tracking_id: #
 
 footer: yes
 footer_url: "https://github.com/ankitsultana"
@@ -16,9 +15,7 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Recherche"
-   link: "/recherche/"
- - name: "Enseignement"
-   link: "/enseignement/"
+ - name: "Resume"
+   link: "cv.pdf"
  - name: "Contact"
    link: "contact"
