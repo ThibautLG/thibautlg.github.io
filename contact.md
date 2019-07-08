@@ -15,5 +15,3 @@ is_contact: true
 >
 > France
 
----
-
