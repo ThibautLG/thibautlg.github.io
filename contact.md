@@ -15,3 +15,8 @@ is_contact: true
 >
 > France
 
+<hr />
+<p style="text-align: center; margin-bottom: 10px">
+<a href="{{ site.footer_url }}" style="color: black"><small>{{ site.footer_text }}</small></a>
+</p>
+
