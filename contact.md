@@ -9,9 +9,9 @@ is_contact: true
 
 ## Mailing Address
 
-> Rue Frédéric Joliot-Curie
+> 38, Rue Frédéric Joliot-Curie
 >
-> Marseille
+> 13013 Marseille
 >
 > France
 
