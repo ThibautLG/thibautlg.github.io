@@ -7,7 +7,7 @@ layout: default
 <img class="profile-picture" src="photo_carre.jpg">
 
 Hi, I am a *Maitre de Conférence* (*Associate Professor*) at the [Institut de Mathématiques de Marseille](https://www.i2m.univ-amu.fr/) and the  [Ecole Centrale de Marseille](http://www.centrale-marseille.fr/), since 2014.
-I am currently on sabbatical research at the [Computer Science Department at HSE](http://cs.hse.ru/en/ai).
+I am currently on sabbatical research at the [Mathematics Department at MIT](http://math.mit.edu).
 
 ## Research Interest
 
