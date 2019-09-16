@@ -17,5 +17,6 @@ More recently, I have been focusing my work on *barycenter in geodesic spaces*, 
 ## Publications
 
 * [Google Scholar](https://scholar.google.fr/citations?user=GhBBcugAAAAJ)
-* [arXiv](http://arxiv.org/find/math/1/au:+Gouic_T/0/1/0/all/0/1)
+* [arXiv](https://arxiv.org/search/?searchtype=author&query=Gouic%2C+T+L)
+* [Scopus](https://www.scopus.com/authid/detail.uri?authorId=56114882800)
 
