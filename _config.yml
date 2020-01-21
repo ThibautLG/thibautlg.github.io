@@ -15,7 +15,9 @@ sass:
     sass_dir: _sass
 
 nav:
- - name: "Resume (in French)"
+ - name: "Résumé (in French)"
    link: "cv.pdf"
  - name: "Contact"
    link: "contact"
+ - name: "Links"
+   link: "links"
