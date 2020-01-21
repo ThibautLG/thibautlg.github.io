@@ -17,7 +17,7 @@ sass:
 nav:
  - name: "Résumé (in French)"
    link: "cv.pdf"
- - name: "Contact"
-   link: "contact"
  - name: "Links"
    link: "links"
+ - name: "Contact"
+   link: "contact"
