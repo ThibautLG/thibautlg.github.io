@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Web page of Thibaut Le Gouic
 ---
 
 ## About Me
