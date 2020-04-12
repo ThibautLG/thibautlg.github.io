@@ -1,6 +1,7 @@
 title: Thibaut Le Gouic
 url: "https://thibautlg.github.io/"
 baseurl: ""
+favicon_location: "photo_carre.ico" 
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
