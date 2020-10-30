@@ -1,0 +1,229 @@
+<div class="bibliography"><style type="text/css" id="zoterostylesheet" scoped>
+.bibshowhide {display:none;}
+.bib-venue-short, .bib-venue {display:none;}.bib-venue-short::before, .bib-venue::before, .blink a::before  {content: attr(data-before);}.blink {margin:0;margin-right:15px;padding:0;display:none;}</style><script type="text/javascript" src="site/clipboard.min.js"></script><script type="text/javascript" src="site/jquery.min.js"></script><script type="text/javascript">jQuery(document).ready(function () {jQuery('.blink a').click(showThis);
+        jQuery("div.bib").add("div.cite").append('\n<button class="btn"><img src="site/clippy.svg" width=13 alt="Copy to clipboard"></button>');
+            new Clipboard('.btn',{
+    text: function(trigger) {
+    var prevCol = trigger.parentNode.style.color;
+    trigger.parentNode.style.color="grey";
+    setTimeout(function(){trigger.parentNode.style.color=prevCol;}, 200);
+    return trigger.parentNode.childNodes[0].textContent;}});
+        jQuery(".bib-venue-short").each(function(){$(this).attr('data-before', $(this).html()); $(this).html("")});
+        jQuery(".blink a").each(function(){$(this).attr('data-before', $(this).html()); $(this).html("")});
+        });
+function dwnD(data) {
+    filename = "article.ris"
+    var pom = document.createElement('a');
+    var isSafari = navigator.vendor && navigator.vendor.indexOf('Apple') > -1 && navigator.userAgent && !navigator.userAgent.match('CriOS');
+    var mime = (isSafari?"text/plain":"application/x-research-info-systems");
+    pom.href = window.URL.createObjectURL(new Blob([atob(data)], {type: mime+";charset=utf-8"}));
+    pom.download = filename;
+    document.body.appendChild(pom);
+    pom.click();
+    setTimeout(function(){document.body.removeChild(pom);}, 100);
+    return(void(0));}
+function showThis(e) {
+    elem = e.target;
+    if (elem.parentNode) {
+    var elems = elem.parentNode.parentNode.getElementsByTagName('*');
+    for (i in elems) {
+            if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1)
+            { if (elems[i].parentNode != elem.parentNode)
+        elems[i].style.display = 'none';
+            }}
+    elems = elem.parentNode.getElementsByTagName('*');
+    for (i in elems) {
+            if((' ' + elems[i].className + ' ').indexOf(' ' + 'bibshowhide' + ' ') > -1)
+        { elems[i].style.display = 'block';
+          hideagain = elems[i];
+              e.stopPropagation();
+          turnoff = function(e){
+          if (! jQuery.contains(this, e.target))
+              this.style.display = 'none';
+          else
+              jQuery(document).one("click",turnoff_b); // rebind itself
+          }
+          turnoff_b = turnoff.bind(elems[i])
+          jQuery(document).one("click",turnoff_b);
+              return(void(0));
+            }}}
+    return(void(0));}
+function changeCSS() {
+    if (!document.styleSheets) return;
+    var theRules = new Array();
+    //ss = document.styleSheets[document.styleSheets.length-1];
+    var ss = document.getElementById('zoterostylesheet');
+    if (ss) {
+    ss = ss.sheet
+    if (ss.cssRules)
+            theRules = ss.cssRules
+    else if (ss.rules)
+            theRules = ss.rules
+    else return;
+    theRules[theRules.length-1].style.display = 'inline';
+    }
+}
+changeCSS();
+</script><div id="bib-preamble" style="visibility:hidden;"><ul id="bib-cat-collection" class="bib-cat"><li class='link'><a style='white-space: nowrap;' href='#' onclick='searchF(["EK6KMB5W"],"Website",1);return false;'>Website<span class='cat_count'> (15)</span></a></li>
+</ul><form id="pubSearchBox" name="pubSearchBox" style="visibility:hidden;"><input id="pubSearchInputBox" type="text" name="keyword" placeholder="keywords">&nbsp;<input id="pubSearchButton" type="button" value="Search" onClick="searchF()"></form><h2 id="searchTermSectionTitle" class="collectiontitle"></h2><script type="text/javascript">
+  function getURLParameter(name) {
+    return decodeURIComponent((new RegExp('[?|&]' + name + '=' + '([^&;]+?)(&|#|;|$)').exec(location.search)||[,""])[1].replace(/\+/g, '%20'))||null;
+  }
+  jQuery( document ).ready(function() {
+    jQuery('#pubSearchBox,#bib-preamble').css("visibility","visible");
+    var kw = getURLParameter("keyword");
+    if (kw) {
+        jQuery('#pubSearchInputBox').val(kw);
+        searchF([kw]);
+    }
+  });
+  jQuery.expr[":"].icontains = jQuery.expr.createPseudo(function(arg) {
+    return function( elem ) {
+        return jQuery(elem).text().toUpperCase().indexOf(arg.toUpperCase()) >= 0;
+    };});
+function searchF(searchTerms, shown, disjunctive) {
+  var i=document.pubSearchBox.keyword.value;
+  searchTerms = searchTerms || (i!=""&&i.split(" "));
+  shown = shown || searchTerms;
+  jQuery(".bib-item").css("display", "none");
+  var q = ".bib-item";
+  if (disjunctive)
+  { for (x in searchTerms) {jQuery(".bib-item:icontains('"+searchTerms[x]+"')").css("display", "block");}
+  }
+  else
+  { jQuery.each(searchTerms, function(i,x) {q = q + ":icontains('"+x+"')";});
+    jQuery(q).css("display", "block");}
+  jQuery("#searchTermSectionTitle").html(searchTerms.length>0?"<a href='#' onclick='searchF([]);'>&#x2715;</a> "+shown:"");
+  jQuery(".collectiontitle").parent(".full-bib-section,.short-bib-section").css("display", "block");
+  jQuery(".collectiontitle").parent(".full-bib-section,.short-bib-section").each(function(){
+    var y = jQuery(this).find(".bib-item:visible");
+    if (y.length==0) {jQuery(this).css("display","none");}
+  });
+}
+  jQuery(function() {    // <== Doc ready
+  // stackoverflow q 3971524
+    var inputVal = jQuery("#pubSearchInputBox").val(),
+        timer,
+        checkForChange = function() {
+            var self = this; // or just use .bind(this)
+            if (timer) { clearTimeout(timer); }
+            // check for change of the text field after each key up
+            timer = setTimeout(function() {
+                if(self.value != inputVal) {
+                    searchF();
+                    inputVal = self.value
+                }
+            }, 250);
+        };
+    jQuery("#pubSearchInputBox").bind('keyup paste cut', checkForChange);
+});</script></div><div class="full-bib-section"><ol><li class="bib-item"><div class="bib-details"><div class="csl-entry">Chewi, S., Clancy, J., Le Gouic, T., Rigollet, P., Stepaniants, G., &amp; Stromme, A. J. (2020). <span class="doctitle"><a class="doctitle" href="http://arxiv.org/abs/2010.12101">Fast and Smooth Interpolation on Wasserstein Space.</a></span> <i>ArXiv:2010.12101 [Math, Stat]</i>. <a href="http://arxiv.org/abs/2010.12101">http://arxiv.org/abs/2010.12101</a></div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2020 type__arXiv.org "Mathematics - Optimization and Control" "Mathematics - Statistics Theory"</span></div><div class="bib-venue">arXiv:2010.12101 [math, stat]</div><div class="blinkitems"><div class="blink"><a    >Abstract</a><div class="bibshowhide"><div class="abstract">We propose a new method for smoothly interpolating probability measures using the geometry of optimal transport. To that end‚ we reduce this problem to the classical Euclidean setting‚ allowing us to directly leverage the extensive toolbox of spline interpolation. Unlike previous approaches to measure-valued splines‚ our interpolated curves (i) have a clear interpretation as governing particle flows‚ which is natural for applications‚ and (ii) come with the first approximation guarantees on Wasserstein space. Finally‚ we demonstrate the broad applicability of our interpolation methodology by fitting surfaces of measures using thin-plate splines.</div></div></div><div class="blink"><a   href="http://arxiv.org/abs/2010.12101" >PDF</a></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{chewi2020fast,
+	title = {Fast and {Smooth} {Interpolation} on {Wasserstein} {Space}},
+	url = {http://arxiv.org/abs/2010.12101},
+	urldate = {2020-10-28},
+	journal = {arXiv:2010.12101 [math, stat]},
+	author = {Chewi, Sinho and Clancy, Julien and Le Gouic, Thibaut and Rigollet, Philippe and Stepaniants, George and Stromme, Austin J.},
+	month = oct,
+	year = {2020},
+	keywords = {Mathematics - Optimization and Control, Mathematics - Statistics Theory},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T., Loubes, J.-M., &amp; Rigollet, P. (2020). <span class="doctitle"><a class="doctitle" href="http://arxiv.org/abs/2005.11720">Projection to Fairness in Statistical Learning.</a></span> <i>ArXiv:2005.11720 [Cs, Math, Stat]</i>. <a href="http://arxiv.org/abs/2005.11720">http://arxiv.org/abs/2005.11720</a></div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2020 type__arXiv.org "62J02" "Computer Science - Machine Learning" "G.3" "I.2.0" "Mathematics - Statistics Theory" "Statistics - Machine Learning"</span></div><div class="bib-venue">arXiv:2005.11720 [cs, math, stat]</div><div class="blinkitems"><div class="blink"><a    >Abstract</a><div class="bibshowhide"><div class="abstract">In the context of regression‚ we consider the fundamental question of making an estimator fair while preserving its prediction accuracy as much as possible. To that end‚ we define its projection to fairness as its closest fair estimator in a sense that reflects prediction accuracy. Our methodology leverages tools from optimal transport to construct efficiently the projection to fairness of any given estimator as a simple post-processing step. Moreover‚ our approach precisely quantifies the cost of fairness‚ measured in terms of prediction accuracy.</div></div></div><div class="blink"><a   href="http://arxiv.org/abs/2005.11720" >PDF</a></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_projection_2020,
+	title = {Projection to {Fairness} in {Statistical} {Learning}},
+	url = {http://arxiv.org/abs/2005.11720},
+	urldate = {2020-10-28},
+	journal = {arXiv:2005.11720 [cs, math, stat]},
+	author = {Le Gouic, Thibaut and Loubes, Jean-Michel and Rigollet, Philippe},
+	month = jun,
+	year = {2020},
+	keywords = {62J02, Computer Science - Machine Learning, G.3, I.2.0, Mathematics - Statistics Theory, Statistics - Machine Learning},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Chewi, S., Le Gouic, T., Lu, C., Maunu, T., Rigollet, P., &amp; Stromme, A. (2020). <span class="doctitle">Exponential ergodicity of mirror-Langevin diffusions.</span> <i>ArXiv Preprint ArXiv:2005.09669</i>.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2020 type__Google Scholar ""</span></div><div class="bib-venue">arXiv preprint arXiv:2005.09669</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{chewi2020exponential,
+	title = {Exponential ergodicity of mirror-{Langevin} diffusions},
+	journal = {arXiv preprint arXiv:2005.09669},
+	author = {Chewi, Sinho and Le Gouic, Thibaut and Lu, Chen and Maunu, Tyler and Rigollet, Philippe and Stromme, Austin},
+	year = {2020},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T. (2020). <span class="doctitle">A note on flatness of non separable tangent cone at a barycenter.</span> <i>Comptes Rendus. Mathématique</i>, <i>358</i>(4), 489–495.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2020 type__Google Scholar ""</span></div><div class="bib-venue">Comptes Rendus. Mathématique</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_note_2020,
+	title = {A note on flatness of non separable tangent cone at a barycenter},
+	volume = {358},
+	number = {4},
+	journal = {Comptes Rendus. Mathématique},
+	author = {Le Gouic, Thibaut},
+	year = {2020},
+	pages = {489--495},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Chewi, S., Le Gouic, T., Lu, C., Maunu, T., &amp; Rigollet, P. (2020). <span class="doctitle">SVGD as a kernelized Wasserstein gradient flow of the chi-squared divergence.</span> <i>ArXiv Preprint ArXiv:2006.02509</i>.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2020 type__Google Scholar ""</span></div><div class="bib-venue">arXiv preprint arXiv:2006.02509</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{chewi2020svgd,
+	title = {{SVGD} as a kernelized {Wasserstein} gradient flow of the chi-squared divergence},
+	journal = {arXiv preprint arXiv:2006.02509},
+	author = {Chewi, Sinho and Le Gouic, Thibaut and Lu, Chen and Maunu, Tyler and Rigollet, Philippe},
+	year = {2020},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Ahidar-Coutrix, A., Le Gouic, T., &amp; Paris, Q. (2019). <span class="doctitle">Convergence rates for empirical barycenters in metric spaces: curvature, convexity and extendable geodesics.</span> <i>Probability Theory and Related Fields</i>, 1–46.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2019 type__Google Scholar ""</span></div><div class="bib-venue">Probability Theory and Related Fields</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{ahidar-coutrix2019convergence,
+	title = {Convergence rates for empirical barycenters in metric spaces: curvature, convexity and extendable geodesics},
+	shorttitle = {Convergence rates for empirical barycenters in metric spaces},
+	journal = {Probability Theory and Related Fields},
+	author = {Ahidar-Coutrix, Adil and Le Gouic, Thibaut and Paris, Quentin},
+	year = {2019},
+	pages = {1--46},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T., Paris, Q., Rigollet, P., &amp; Stromme, A. J. (2019). <span class="doctitle">Fast convergence of empirical barycenters in Alexandrov spaces and the Wasserstein space.</span> <i>ArXiv Preprint ArXiv:1908.00828</i>.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2019 type__Google Scholar ""</span></div><div class="bib-venue">arXiv preprint arXiv:1908.00828</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_fast_2019,
+	title = {Fast convergence of empirical barycenters in {Alexandrov} spaces and the {Wasserstein} space},
+	journal = {arXiv preprint arXiv:1908.00828},
+	author = {Le Gouic, Thibaut and Paris, Quentin and Rigollet, Philippe and Stromme, Austin J.},
+	year = {2019},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Arias-Castro, E., &amp; Le Gouic, T. (2019). <span class="doctitle"><a class="doctitle" href="https://link.springer.com/article/10.1007/s00454-019-00060-7">Unconstrained and curvature-constrained shortest-path distances and their approximation.</a></span> <i>Discrete &amp; Computational Geometry</i>, <i>62</i>(1), 1–28. <a href="https://link.springer.com/article/10.1007/s00454-019-00060-7">https://link.springer.com/article/10.1007/s00454-019-00060-7</a></div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2019 type__Journal Articles ""</span></div><div class="bib-venue">Discrete & Computational Geometry</div><div class="blinkitems"><div class="blink"><a    >Abstract</a><div class="bibshowhide"><div class="abstract">We study shortest paths and their distances on a subset of a Euclidean space‚ and their approximation by their equivalents in a neighborhood graph defined on a sample from that subset. In particular‚ we recover and extend the results of Bernstein et al. (Graph approximations to geodesics on embedded manifolds‚ Tech. Rep.‚ Department of Psychology‚ Stanford University‚ 2000). We do the same with curvature-constrained shortest paths and their distances‚ establishing what we believe are the first approximation bounds for them.</div></div></div><div class="blink"><a   href="https://link.springer.com/article/10.1007/s00454-019-00060-7" >PDF</a></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{arias-castro2019unconstrained,
+	title = {Unconstrained and curvature-constrained shortest-path distances and their approximation},
+	volume = {62},
+	url = {https://link.springer.com/article/10.1007/s00454-019-00060-7},
+	number = {1},
+	journal = {Discrete \& Computational Geometry},
+	author = {Arias-Castro, Ery and Le Gouic, Thibaut},
+	year = {2019},
+	pages = {1--28},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T., &amp; Paris, Q. (2018). <span class="doctitle">A notion of stability for k-means clustering.</span> <i>Electronic Journal of Statistics</i>, <i>12</i>(2), 4239–4263.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2018 type__Google Scholar ""</span></div><div class="bib-venue">Electronic journal of statistics</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_notion_2018,
+	title = {A notion of stability for k-means clustering},
+	volume = {12},
+	number = {2},
+	journal = {Electronic journal of statistics},
+	author = {Le Gouic, Thibaut and Paris, Quentin},
+	year = {2018},
+	pages = {4239--4263},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T., &amp; Loubes, J.-M. (2017). <span class="doctitle">Existence and consistency of Wasserstein barycenters.</span> <i>Probability Theory and Related Fields</i>, <i>168</i>(3–4), 901–917.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2017 type__Google Scholar ""</span></div><div class="bib-venue">Probability Theory and Related Fields</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_existence_2017,
+	title = {Existence and consistency of {Wasserstein} barycenters},
+	volume = {168},
+	number = {3-4},
+	journal = {Probability Theory and Related Fields},
+	author = {Le Gouic, Thibaut and Loubes, Jean-Michel},
+	year = {2017},
+	pages = {901--917},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T. (2015). <span class="doctitle"><a class="doctitle" href="http://arxiv.org/abs/1506.04136">Mass localization.</a></span> <i>ArXiv:1506.04136 [Math, Stat]</i>. <a href="http://arxiv.org/abs/1506.04136">http://arxiv.org/abs/1506.04136</a></div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2015 type__arXiv.org "Mathematics - Statistics Theory"</span></div><div class="bib-venue">arXiv:1506.04136 [math, stat]</div><div class="blinkitems"><div class="blink"><a    >Abstract</a><div class="bibshowhide"><div class="abstract">For a given class \textbackslashmathcal\F\ of closed sets of a measured metric space (E‚d‚\textbackslashmu)‚ we want to find the smallest element B of the class \textbackslashmathcal\F\ such that \textbackslashmu(B)\textbackslashgeq 1-\textbackslashalpha‚ for a given 0&lt;\textbackslashalpha&lt;1. This set B \textbackslashtextit\localizes the mass\ of \textbackslashmu. Replacing the measure \textbackslashmu by the empirical measure \textbackslashmu_n gives an empirical smallest set B_n. The article introduces a formal definition of small sets (and their size) and study the convergence of the sets B_n to B and of their size.</div></div></div><div class="blink"><a   href="http://arxiv.org/abs/1506.04136" >PDF</a></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_mass_2015,
+	title = {Mass localization},
+	url = {http://arxiv.org/abs/1506.04136},
+	urldate = {2020-10-30},
+	journal = {arXiv:1506.04136 [math, stat]},
+	author = {Le Gouic, Thibaut},
+	month = jun,
+	year = {2015},
+	keywords = {Mathematics - Statistics Theory},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T. (2015). <span class="doctitle">Recovering metric from full ordinal information.</span> <i>ArXiv Preprint ArXiv:1506.03762</i>.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2015 type__Google Scholar ""</span></div><div class="bib-venue">arXiv preprint arXiv:1506.03762</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{le_gouic_recovering_2015,
+	title = {Recovering metric from full ordinal information},
+	journal = {arXiv preprint arXiv:1506.03762},
+	author = {Le Gouic, Thibaut},
+	year = {2015},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Le Gouic, T., &amp; Loubes, J.-M. (2015). <span class="doctitle">Barycenter in Wasserstein spaces: Existence and consistency.</span> <i>International Conference on Geometric Science of Information</i>, 104–108.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2015 type__Journal Articles ""</span></div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@inproceedings{le_gouic_barycenter_2015,
+	title = {Barycenter in {Wasserstein} spaces: {Existence} and consistency},
+	shorttitle = {Barycenter in {Wasserstein} spaces},
+	booktitle = {International {Conference} on {Geometric} {Science} of {Information}},
+	publisher = {Springer},
+	author = {Le Gouic, Thibaut and Loubes, Jean-Michel},
+	year = {2015},
+	pages = {104--108},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Boissard, E., Le Gouic, T., &amp; Loubes, J.-M. (2015). <span class="doctitle">Distribution’s template estimate with Wasserstein metrics.</span> <i>Bernoulli</i>, <i>21</i>(2), 740–759.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2015 venue_short__Bernoulli type__Journal Articles ""</span></div><div class="bib-venue">Bernoulli</div><div class="bib-venue-short">Bernoulli</div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@article{boissard2015distributions,
+	title = {Distribution's template estimate with {Wasserstein} metrics},
+	volume = {21},
+	number = {2},
+	journal = {Bernoulli},
+	author = {Boissard, Emmanuel and Le Gouic, Thibaut and Loubes, Jean-Michel},
+	year = {2015},
+	pages = {740--759},
+}</div></div></div></div></li><li class="bib-item"><div class="bib-details"><div class="csl-entry">Boissard, E., &amp; Le Gouic, T. (2014). <span class="doctitle">On the mean speed of convergence of empirical and occupation measures in Wasserstein distance.</span> <i>Annales de l’IHP Probabilités et Statistiques</i>, <i>50</i>, 539–563.</div><span class='bib-kw' style='display:none;'>EK6KMB5W year__2014 type__Google Scholar ""</span></div><div class="blinkitems"><div class="blink"><span class="label">abstract</span></div><div class="blink"><span class="label">url</span></div><div class="blink"><a    >BIB</a><div class="bibshowhide"><div class="bib">@inproceedings{boissard2014mean,
+	title = {On the mean speed of convergence of empirical and occupation measures in {Wasserstein} distance},
+	volume = {50},
+	booktitle = {Annales de l'{IHP} {Probabilités} et statistiques},
+	author = {Boissard, Emmanuel and Le Gouic, Thibaut},
+	year = {2014},
+	pages = {539--563},
+}</div></div></div></div></li></ol></div><div id="zbw_credits" style="text-align:right;">A <a href="https://github.com/davidswelt/zot_bib_web">zot_bib_web</a> bibliography.</div></div>
