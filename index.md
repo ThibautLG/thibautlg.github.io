@@ -14,12 +14,14 @@ I am currently on sabbatical research at the [Mathematics Department at MIT](htt
 I am interested at the interaction between *statistics* and *metric geometry*.
 More recently, I have been focusing my work on *barycenter in geodesic spaces*, and in the *Wasserstein space* in particular.
 
-## Publications
+## Find me online
 
 * [Google Scholar](https://scholar.google.fr/citations?user=GhBBcugAAAAJ)
 * [arXiv](https://arxiv.org/search/?searchtype=author&query=Gouic%2C+T+L)
 * [ORCID](https://orcid.org/0000-0001-6983-2794)
 * [Semantic Scholar](https://www.semanticscholar.org/author/Thibaut-Le-Gouic/2270369)
+
+## Publications
 
 1. Le Gouic, Thibaut. 2020. “A Note on Flatness of Non Separable Tangent Cone at a Barycenter.” Comptes Rendus. Mathématique 358(4):489–495.
 1. Ahidar-Coutrix, Adil, Thibaut Le Gouic, and Quentin Paris. 2019. “Convergence Rates for Empirical Barycenters in Metric Spaces: Curvature, Convexity and Extendable Geodesics.” Probability Theory and Related Fields 1–46.
