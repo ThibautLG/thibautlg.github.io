@@ -11,8 +11,8 @@ I am currently on sabbatical research at the [Mathematics Department at MIT](htt
 
 ## Research Interest
 
-I am interested at the interaction between *statistics* and *metric geometry*.
-More recently, I have been focusing my work on *barycenter in geodesic spaces*, and in the *Wasserstein space* in particular.
+My general interests lie in the interaction between *statistics* and *geometry*.
+More recently, I have been focusing my work on *barycenters*, and in the *optimal transport* in particular.
 
 ## Find me online
 
