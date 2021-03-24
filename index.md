@@ -23,6 +23,7 @@ More recently, I have been focusing my work on *barycenters*, and in the *optima
 
 ## Publications
 
+1. Chewi, Sinho, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin J. Stromme. 2020. “Fast and Smooth Interpolation on Wasserstein Space.” AISTATS 2021.
 1. Chewi, Sinho, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet. 2020. “SVGD as a Kernelized Wasserstein Gradient Flow of the Chi-Squared Divergence.” NeurIPS 2020.
 1. Chewi, Sinho, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme. 2020. “Exponential Ergodicity of Mirror-Langevin Diffusions.”  NeurIPS 2020.
 1. Le Gouic, Thibaut. 2020. “A Note on Flatness of Non Separable Tangent Cone at a Barycenter.” Comptes Rendus. Mathématique 358(4):489–495.
@@ -35,8 +36,8 @@ More recently, I have been focusing my work on *barycenters*, and in the *optima
 
 ### Preprints
 
-1. Chewi, Sinho, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin J. Stromme. 2020. “Fast and Smooth Interpolation on Wasserstein Space.” ArXiv:2010.12101.
-1. Le Gouic, Thibaut, Jean-Michel Loubes, and Philippe Rigollet. 2020. “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720.
+1. Chewi, Sinho, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet. 2020 “Optimal Dimension Dependence of the Metropolis-Adjusted Langevin Algorithm.” ArXiv Preprint ArXiv:2012.12810.
+1. Le Gouic, Thibaut, Jean-Michel Loubes, and Philippe Rigollet. 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
 1. Le Gouic, Thibaut, Quentin Paris, Philippe Rigollet, and Austin J. Stromme. 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828.
 1. Le Gouic, Thibaut. 2015. “Recovering Metric from Full Ordinal Information.” ArXiv:1506.03762.
 1. Le Gouic, Thibaut. 2015. “Mass Localization.” ArXiv:1506.04136.
