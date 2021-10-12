@@ -37,7 +37,6 @@ More recently, I have been focusing my work on *barycenters*, and in the *optima
 
 ### Preprints
 
-1. Chewi, Sinho, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet. 2020 “Optimal Dimension Dependence of the Metropolis-Adjusted Langevin Algorithm.” ArXiv Preprint ArXiv:2012.12810.
 1. Le Gouic, Thibaut, Jean-Michel Loubes, and Philippe Rigollet. 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
 1. Le Gouic, Thibaut, Quentin Paris, Philippe Rigollet, and Austin J. Stromme. 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828.
 1. Le Gouic, Thibaut. 2015. “Recovering Metric from Full Ordinal Information.” ArXiv:1506.03762.
