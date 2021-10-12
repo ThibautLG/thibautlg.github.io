@@ -23,6 +23,7 @@ More recently, I have been focusing my work on *barycenters*, and in the *optima
 
 ## Publications
 
+1. Chewi, Sinho, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe Rigollet. 2021. "Optimal dimension dependence of the Metropolis-Adjusted Langevin Algorithm." COLT 2021.
 1. Chewi, Sinho, Julien Clancy, Thibaut Le Gouic, Philippe Rigollet, George Stepaniants, and Austin J. Stromme. 2020. “Fast and Smooth Interpolation on Wasserstein Space.” AISTATS 2021.
 1. Chewi, Sinho, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe Rigollet. 2020. “SVGD as a Kernelized Wasserstein Gradient Flow of the Chi-Squared Divergence.” NeurIPS 2020.
 1. Chewi, Sinho, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe Rigollet, and Austin Stromme. 2020. “Exponential Ergodicity of Mirror-Langevin Diffusions.”  NeurIPS 2020.
