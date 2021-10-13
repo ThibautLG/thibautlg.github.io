@@ -11,8 +11,8 @@ I was on research sabbatical leave at [Faculty of Computer Science at HSE](https
 
 ## Research Interest
 
-My general interests lie in the interaction between *statistics* and *geometry*.
-More recently, I have been focusing my work on *barycenters*, and in the *optimal transport* in particular.
+My general interests lie in the interaction between *statistics*, *probability* and *geometry*.
+More recently, I have been focusing my work on *barycenters*, *sampling* and the *optimal transport*.
 
 ## Find me online
 
