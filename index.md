@@ -24,9 +24,9 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 ## Publications
 
 1. [Chewi](https://chewisinho.github.io/), Sinho, Chen Lu, Kwangjun Ahn, Xiang Cheng, Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2021. "Optimal dimension dependence of the Metropolis-Adjusted Langevin Algorithm." COLT 2021. - [talk](https://www.youtube.com/watch?v=T5XZ1H9pBOg)
-1. [Chewi](https://chewisinho.github.io/), Sinho, Julien Clancy, Thibaut Le Gouic, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), George Stepaniants, and Austin J. Stromme. 2020. “Fast and Smooth Interpolation on Wasserstein Space.” AISTATS 2021.
-1. [Chewi](https://chewisinho.github.io/), Sinho, Thibaut Le Gouic, Chen Lu, Tyler Maunu, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020. “SVGD as a Kernelized Wasserstein Gradient Flow of the Chi-Squared Divergence.” NeurIPS 2020.
-1. [Chewi](https://chewisinho.github.io/), Sinho, Thibaut Le Gouic, Chen Lu, Tyler Maunu, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin Stromme. 2020. “Exponential Ergodicity of Mirror-Langevin Diffusions.”  NeurIPS 2020.
+1. [Chewi](https://chewisinho.github.io/), Sinho, Julien Clancy, Thibaut Le Gouic, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), George Stepaniants, and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2020. “Fast and Smooth Interpolation on Wasserstein Space.” AISTATS 2021.
+1. [Chewi](https://chewisinho.github.io/), Sinho, Thibaut Le Gouic, Chen Lu, Tyler [Maunu](https://tylermaunu.com/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020. “SVGD as a Kernelized Wasserstein Gradient Flow of the Chi-Squared Divergence.” NeurIPS 2020.
+1. [Chewi](https://chewisinho.github.io/), Sinho, Thibaut Le Gouic, Chen Lu, Tyler [Maunu](https://tylermaunu.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2020. “Exponential Ergodicity of Mirror-Langevin Diffusions.”  NeurIPS 2020.
 1. Le Gouic, Thibaut. 2020. “A Note on Flatness of Non Separable Tangent Cone at a Barycenter.” Comptes Rendus. Mathématique 358(4):489–495.
 1. Ahidar-Coutrix, Adil, Thibaut Le Gouic, and Quentin [Paris](https://www.qparis-math.com/). 2019. “Convergence Rates for Empirical Barycenters in Metric Spaces: Curvature, Convexity and Extendable Geodesics.” Probability Theory and Related Fields 1–46. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
 1. Arias-Castro, Ery, and Thibaut Le Gouic. 2019. “Unconstrained and Curvature-Constrained Shortest-Path Distances and Their Approximation.” Discrete & Computational Geometry 62(1):1–28.
@@ -39,7 +39,7 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021 “Sampling From the Wasserstein Barycenter.” ArXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
 1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
-1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. Stromme. 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
+1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
 1. Le Gouic, Thibaut. 2015. “Recovering Metric from Full Ordinal Information.” ArXiv:1506.03762.
 1. Le Gouic, Thibaut. 2015. “Mass Localization.” ArXiv:1506.04136.
 
