@@ -37,6 +37,7 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 ### Preprints
 
+1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021 “Sampling From the Wasserstein Barycenter.” ArXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
 1. Le Gouic, Thibaut, Jean-Michel Loubes, and Philippe Rigollet. 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
 1. Le Gouic, Thibaut, Quentin Paris, Philippe Rigollet, and Austin J. Stromme. 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828.
 1. Le Gouic, Thibaut. 2015. “Recovering Metric from Full Ordinal Information.” ArXiv:1506.03762.
