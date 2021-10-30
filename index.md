@@ -37,9 +37,9 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 ### Preprints
 
-1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Patrik, Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). (2021). “The query complexity of sampling from strongly log-concave distributions in one dimension.” ArXiv:2105.14163.
+1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). (2021). “The query complexity of sampling from strongly log-concave distributions in one dimension.” ArXiv:2105.14163.
 1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/) (2021). “Rejection sampling from shape-constrained distributions in sublinear time.” ArXiv:2105.14166.
-1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021 “Sampling From the Wasserstein Barycenter.” ArXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
+1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021 “Sampling From the Wasserstein Barycenter.” ArXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=CkExb3VEv1w&ab_channel=SimonsInstitute)
 1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
 1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
 1. Le Gouic, Thibaut. 2015. “Recovering Metric from Full Ordinal Information.” ArXiv:1506.03762.
