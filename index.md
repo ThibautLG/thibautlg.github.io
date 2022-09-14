@@ -23,6 +23,12 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 ## Publications
 
+1. Le Gouic, Thibaut. 2022? “Recovering Metric from Full Ordinal Information.” Discrete & Computational Geometry (to appear)
+1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” Journal of the European Mathematical Society, 2022. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
+1. [Perchet]() Vianney,  Philippe [Rigollet](http://www-math.mit.edu/~rigollet/) and Thibaut Le Gouic. 2022. "An algorithmic solution to the Blotto game using multi-marginal couplings."
+Proceedings of the 23rd ACM Conference on Economics and Computation, 208-209
+1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). (2021). “The query complexity of sampling from strongly log-concave distributions in one dimension.” Conference on Learning Theory, 2041-2059
+1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/) (2021). “Rejection sampling from shape-constrained distributions in sublinear time.” International Conference on Artificial Intelligence and Statistics, 2249-2265
 1. [Chewi](https://chewisinho.github.io/), Sinho, Chen [Lu](https://clu0.github.io/), Kwangjun [Ahn](http://kjahn.mit.edu/about-0), Xiang Cheng, Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2021. "Optimal dimension dependence of the Metropolis-Adjusted Langevin Algorithm." COLT 2021. - [talk](https://www.youtube.com/watch?v=T5XZ1H9pBOg)
 1. [Chewi](https://chewisinho.github.io/), Sinho, Julien Clancy, Thibaut Le Gouic, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), George Stepaniants, and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2020. “Fast and Smooth Interpolation on Wasserstein Space.” AISTATS 2021.
 1. [Chewi](https://chewisinho.github.io/), Sinho, Thibaut Le Gouic, Chen [Lu](https://clu0.github.io/), Tyler [Maunu](https://tylermaunu.com/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020. “SVGD as a Kernelized Wasserstein Gradient Flow of the Chi-Squared Divergence.” NeurIPS 2020.
@@ -37,12 +43,8 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 ### Preprints
 
-1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). (2021). “The query complexity of sampling from strongly log-concave distributions in one dimension.” ArXiv:2105.14163.
-1. [Chewi](https://chewisinho.github.io/), Sinho, Patrik [Gerber](https://patrikgerber.github.io/), Chen [Lu](https://clu0.github.io/), Thibaut Le Gouic, and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/) (2021). “Rejection sampling from shape-constrained distributions in sublinear time.” ArXiv:2105.14166.
 1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021 “Sampling From the Wasserstein Barycenter.” ArXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=CkExb3VEv1w&ab_channel=SimonsInstitute)
 1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
-1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” ArXiv:1908.00828. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
-1. Le Gouic, Thibaut. 2015. “Recovering Metric from Full Ordinal Information.” ArXiv:1506.03762.
 1. Le Gouic, Thibaut. 2015. “Mass Localization.” ArXiv:1506.04136.
 
 {% include test.html %}
