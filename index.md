@@ -7,6 +7,8 @@ layout: default
 <img class="profile-picture" src="photo_carre.jpg">
 
 Hi, I have been a *Maitre de Conférence* (*Associate Professor*) at the [Institut de Mathématiques de Marseille](https://www.i2m.univ-amu.fr/) and the  [Ecole Centrale de Marseille](http://www.centrale-marseille.fr/) since 2014.
+I am a member of the ANR projet [SOCOT](https://codimd.math.cnrs.fr/s/vKWD_JtAu).
+
 I was on research sabbatical at the [Faculty of Computer Science at HSE](https://cs.hse.ru/en) in 2018-2019 and at the [Mathematics Department at the MIT](http://math.mit.edu) in 2019-2021.
 
 ## Research Interest
@@ -23,7 +25,9 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 ## Publications
 
-1. Le Gouic, Thibaut. “Recovering Metric from Full Ordinal Information.” Discrete & Computational Geometry (to appear)
+1. [Gozlan](https://sites.google.com/view/nathaelgozlanmath/accueil) Nathael, Thibaut Le Gouic, Paul-Marie [Samson](https://perso.math.u-pem.fr/samson.paul-marie/) “On the quadratic barycentric transport problem”. arXiv preprint arXiv:2509.04935
+1. [Maunu](https://twmaunu.github.io), Tyler, Thibaut Le Gouic, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2023. “Bures-wasserstein barycenters and low-rank matrix recovery.” International Conference on Artificial Intelligence and Statistics, 8183-8210
+1. Le Gouic, Thibaut. 2023. “Recovering Metric from Full Ordinal Information.” Discrete & Computational Geometry 69 (1), 123-138
 1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” Journal of the European Mathematical Society, 2022. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
 1. [Perchet](https://vianney.ai/) Vianney,  Philippe [Rigollet](http://www-math.mit.edu/~rigollet/) and Thibaut Le Gouic. 2022. "An algorithmic solution to the Blotto game using multi-marginal couplings."
 Proceedings of the 23rd ACM Conference on Economics and Computation, 208-209
@@ -43,9 +47,11 @@ Proceedings of the 23rd ACM Conference on Economics and Computation, 208-209
 
 ### Preprints
 
-1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021 “Sampling From the Wasserstein Barycenter.” ArXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=CkExb3VEv1w&ab_channel=SimonsInstitute)
-1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020 “Projection to Fairness in Statistical Learning.” ArXiv:2005.11720 
-1. Le Gouic, Thibaut. 2015. “Mass Localization.” ArXiv:1506.04136.
+1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2025. “Convergence of the Mirror Langevin algorithm on unbounded domains under Log-Sobolev Inequality for the target measure”, hal-05127974
+1. Leblanc Hugo, Thibaut Le Gouic, Jacques Liandrat, Magali Tournus. 2023. “Extending the Wasserstein metric to positive measures” arXiv:2303.02183
+1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021. “Sampling From the Wasserstein Barycenter.” arXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=CkExb3VEv1w&ab_channel=SimonsInstitute)
+1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020. “Projection to Fairness in Statistical Learning.” arXiv:2005.11720 
+1. Le Gouic, Thibaut. 2015. “Mass Localization.” arXiv:1506.04136
 
 {% include test.html %}
 
