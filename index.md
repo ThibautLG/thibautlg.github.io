@@ -6,13 +6,9 @@ layout: default
 
 <img class="profile-picture" src="photo_carre.jpg">
 
-<<<<<<< HEAD
 Hi, I have been a *Maitre de Conférence* (*Associate Professor*) at the [Institut de Mathématiques de Marseille](https://www.i2m.univ-amu.fr/) and the  [Ecole Centrale de Marseille](http://www.centrale-marseille.fr/) since 2014.
 I am a member of the ANR projet [SOCOT](https://codimd.math.cnrs.fr/s/vKWD_JtAu).
 
-=======
-Hi, I have been a *Maitre de Conférence* (*Associate Professor*) at the [Institut de Mathématiques de Marseille](https://www.i2m.univ-amu.fr/) and the  [Ecole Centrale de Marseille](http://www.centrale-marseille.fr/) since 2014 (HDR since 2023).
->>>>>>> refs/remotes/origin/master
 I was on research sabbatical at the [Faculty of Computer Science at HSE](https://cs.hse.ru/en) in 2018-2019 and at the [Mathematics Department at the MIT](http://math.mit.edu) in 2019-2021.
 
 ## Research Interest
