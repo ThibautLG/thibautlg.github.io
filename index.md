@@ -25,7 +25,6 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 
 ## Publications
 
-1. [Gozlan](https://sites.google.com/view/nathaelgozlanmath/accueil) Nathael, Thibaut Le Gouic, Paul-Marie [Samson](https://perso.math.u-pem.fr/samson.paul-marie/). 2025. “On the quadratic barycentric transport problem”. arXiv preprint arXiv:2509.04935
 1. [Maunu](https://twmaunu.github.io), Tyler, Thibaut Le Gouic, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2023. “Bures-wasserstein barycenters and low-rank matrix recovery.” International Conference on Artificial Intelligence and Statistics, 8183-8210
 1. Le Gouic, Thibaut. 2023. “Recovering Metric from Full Ordinal Information.” Discrete & Computational Geometry 69 (1), 123-138
 1. Le Gouic, Thibaut, Quentin [Paris](https://www.qparis-math.com/), Philippe [Rigollet](http://www-math.mit.edu/~rigollet/), and Austin J. [Stromme](https://www.mit.edu/~astromme/index.html). 2019. “Fast Convergence of Empirical Barycenters in Alexandrov Spaces and the Wasserstein Space.” Journal of the European Mathematical Society, 2022. - [talk](https://www.youtube.com/watch?v=vcriVEsyLfc)
@@ -47,6 +46,7 @@ Proceedings of the 23rd ACM Conference on Economics and Computation, 208-209
 
 ### Preprints
 
+1. [Gozlan](https://sites.google.com/view/nathaelgozlanmath/accueil) Nathael, Thibaut Le Gouic, Paul-Marie [Samson](https://perso.math.u-pem.fr/samson.paul-marie/). 2025. “On the quadratic barycentric transport problem”. arXiv preprint arXiv:2509.04935
 1. Gossard Florian, François [Bachoc](https://francoisbachoc.github.io), Jean [Baccou](https://www.researchgate.net/profile/Jean-Baccou), Thibaut Le Gouic, Jacques Liandrat, Tony [Glantz](https://www.researchgate.net/scientific-contributions/Tony-Glantz-2151811803). 2025. “Kriging measure-valued data with sparse observations: application to nuclear safety studies.”, arXiv:2510.21277
 1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2025. “Convergence of the Mirror Langevin algorithm on unbounded domains under Log-Sobolev Inequality for the target measure”, hal-05127974
 1. Leblanc Hugo, Thibaut Le Gouic, Jacques Liandrat, Magali Tournus. 2023. “Extending the Wasserstein metric to positive measures” arXiv:2303.02183
