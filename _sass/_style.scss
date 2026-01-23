@@ -5,10 +5,13 @@
  */
 
 html {
-    height: 100%;
     margin: 0;
     padding: 0;
 }
+.container {
+    padding-bottom: 150px;
+}
+
 body {
     margin: 100px;
     font-family: "Inconsolata";
