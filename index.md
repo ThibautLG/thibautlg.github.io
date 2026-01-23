@@ -23,6 +23,17 @@ More recently, I have been focusing my work on *barycenters*, *sampling* and *op
 * [ORCID](https://orcid.org/0000-0001-6983-2794)
 * [Semantic Scholar](https://www.semanticscholar.org/author/Thibaut-Le-Gouic/2270369)
 
+
+### Preprints
+
+1. [Gozlan](https://sites.google.com/view/nathaelgozlanmath/accueil) Nathael, Thibaut Le Gouic, Paul-Marie [Samson](https://perso.math.u-pem.fr/samson.paul-marie/). 2025. “On the quadratic barycentric transport problem”. arXiv preprint [arXiv:2509.04935](https://arxiv.org/abs/2509.04935)
+1. Gossard Florian, François [Bachoc](https://francoisbachoc.github.io), Jean [Baccou](https://www.researchgate.net/profile/Jean-Baccou), Thibaut Le Gouic, Jacques Liandrat, Tony [Glantz](https://www.researchgate.net/scientific-contributions/Tony-Glantz-2151811803). 2025. “Kriging measure-valued data with sparse observations: application to nuclear safety studies.”, [arXiv:2510.21277](https://arxiv.org/abs/2510.21277)
+1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2025. “Convergence of the Mirror Langevin algorithm on unbounded domains under Log-Sobolev Inequality for the target measure”, [hal-05127974](https://hal.science/hal-05127974v1)
+1. Leblanc Hugo, Thibaut Le Gouic, Jacques Liandrat, Magali Tournus. 2023. “Extending the Wasserstein metric to positive measures” [arXiv:2303.02183](https://arxiv.org/abs/2303.02183)
+1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021. “Sampling From the Wasserstein Barycenter.” [arXiv:2105.01706](arXiv:2105.01706) - [talk](https://www.youtube.com/watch?v=CkExb3VEv1w&ab_channel=SimonsInstitute)
+1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020. “Projection to Fairness in Statistical Learning.” [arXiv:2005.11720](https://arxiv.org/abs/2005.11720)
+1. Le Gouic, Thibaut. 2015. “Mass Localization.” [arXiv:1506.04136](https://arxiv.org/abs/1506.04136)
+
 ## Publications
 
 1. [Maunu](https://twmaunu.github.io), Tyler, Thibaut Le Gouic, Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2023. “Bures-wasserstein barycenters and low-rank matrix recovery.” International Conference on Artificial Intelligence and Statistics, 8183-8210
@@ -44,15 +55,6 @@ Proceedings of the 23rd ACM Conference on Economics and Computation, 208-209
 1. Le Gouic, Thibaut, and Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/). 2017. “Existence and Consistency of Wasserstein Barycenters.” Probability Theory and Related Fields 168(3–4):901–917. - [talk](https://www.youtube.com/watch?v=lzGxDemDCkc)
 1. Boissard, Emmanuel, and Thibaut Le Gouic. 2014. “On the Mean Speed of Convergence of Empirical and Occupation Measures in Wasserstein Distance.” Pp. 539–563 in Annales de l’IHP Probabilités et statistiques. Vol. 50.
 
-### Preprints
-
-1. [Gozlan](https://sites.google.com/view/nathaelgozlanmath/accueil) Nathael, Thibaut Le Gouic, Paul-Marie [Samson](https://perso.math.u-pem.fr/samson.paul-marie/). 2025. “On the quadratic barycentric transport problem”. arXiv preprint arXiv:2509.04935
-1. Gossard Florian, François [Bachoc](https://francoisbachoc.github.io), Jean [Baccou](https://www.researchgate.net/profile/Jean-Baccou), Thibaut Le Gouic, Jacques Liandrat, Tony [Glantz](https://www.researchgate.net/scientific-contributions/Tony-Glantz-2151811803). 2025. “Kriging measure-valued data with sparse observations: application to nuclear safety studies.”, arXiv:2510.21277
-1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2025. “Convergence of the Mirror Langevin algorithm on unbounded domains under Log-Sobolev Inequality for the target measure”, hal-05127974
-1. Leblanc Hugo, Thibaut Le Gouic, Jacques Liandrat, Magali Tournus. 2023. “Extending the Wasserstein metric to positive measures” arXiv:2303.02183
-1. Daaloul, Chiheb, Thibaut Le Gouic, Jacques Liandrat, and Magali Tournus. 2021. “Sampling From the Wasserstein Barycenter.” arXiv:2105.01706 - [talk](https://www.youtube.com/watch?v=CkExb3VEv1w&ab_channel=SimonsInstitute)
-1. Le Gouic, Thibaut, Jean-Michel [Loubes](https://perso.math.univ-toulouse.fr/loubes/), and Philippe [Rigollet](http://www-math.mit.edu/~rigollet/). 2020. “Projection to Fairness in Statistical Learning.” arXiv:2005.11720 
-1. Le Gouic, Thibaut. 2015. “Mass Localization.” arXiv:1506.04136
 
 {% include test.html %}
 
