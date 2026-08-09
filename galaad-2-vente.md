@@ -155,10 +155,9 @@ En dehors de ces réparations, le bateau est en bon état général.
 
 ---
 
-## Vidéos
+## Vidéo
 
-- [Vidéo 1 — VID_20260809_174341.mp4](./VID_20260809_174341.mp4)
-- [Vidéo 2 — VID_20260809_174541.mp4](./VID_20260809_174541.mp4)
+- [Vidéo — VID_20260809_174341.mp4](./VID_20260809_174341.mp4)
 
 ---
 
