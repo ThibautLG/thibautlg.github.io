@@ -1,6 +1,6 @@
 # Galaad 2
 
-Je vends mon Mini 650!
+Je vends mon Mini 650.
 
 ## Prototype Mini 650 — 1987
 
@@ -12,6 +12,8 @@ Il a navigué et régaté **jusqu'à cet été**.
 Retrouvez son historique sur [Histoire des halfs](https://www.histoiredeshalfs.com/Histoire%20des%20Minis/679.htm).
 
 **Visible à Port de Bouc.**
+
+2500 euros
 
 ---
 
@@ -101,13 +103,12 @@ En dehors de ces réparations, le bateau est en bon état général.
 <img src="IMG_20260809_173548.jpg">
 
 <img src="IMG_20260809_173559.jpg">
-<img src="IMG_20260809_173608.jpg">
 
 ### Safrans 
+<img src="IMG_20260809_173608.jpg">
 <img src="IMG_20260809_173619.jpg">
-<img src="IMG_20260809_173627.jpg">
-
 ### Autres photos
+<img src="IMG_20260809_173627.jpg">
 <img src="IMG_20260809_173638.jpg">
 <img src="IMG_20260809_173650.jpg">
 <img src="IMG_20260809_173655.jpg">
