@@ -1,5 +1,7 @@
 # Galaad 2
 
+Je vends mon Mini 650!
+
 ## Prototype Mini 650 — 1987
 
 **Plan Auzepy-Brenneur de 1987**
@@ -7,6 +9,9 @@
 Galaad 2 est un prototype Mini 650 de 1987. Le bateau nécessite une remise à neuf, tout en restant en bon état général en dehors des réparations à prévoir.
 
 Il a navigué et régaté **jusqu'à cet été**.
+Retrouvez son historique sur [Histoire des halfs](https://www.histoiredeshalfs.com/Histoire%20des%20Minis/679.htm).
+
+**Visible à Port de Bouc.**
 
 ---
 
@@ -19,6 +24,7 @@ Il a navigué et régaté **jusqu'à cet été**.
 | Plan | Auzepy-Brenneur |
 | Tirant d'eau | 1,80 m |
 | Déplacement | 1 100 kg |
+| Moteur | Yamaha Matla 2 temps |
 | Bastaques | 2 |
 | Winchs | 4 |
 
@@ -54,7 +60,15 @@ En dehors de ces réparations, le bateau est en bon état général.
 
 ---
 
+## Vidéo
+
+- [Vidéo — VID_20260809_174341.mp4](./VID_20260809_174341.mp4)
+
+---
+
 ## Galerie photo
+
+### L'intérieur
 
 <img src="IMG_20260809_172736.jpg">
 <img src="IMG_20260809_173201.jpg">
@@ -71,8 +85,11 @@ En dehors de ces réparations, le bateau est en bon état général.
 <img src="IMG_20260809_173356.jpg">
 <img src="IMG_20260809_173413.jpg">
 <img src="IMG_20260809_173417.jpg">
+
+### Le pont
 <img src="IMG_20260809_173503.jpg">
 <img src="IMG_20260809_173507.jpg">
+
 <img src="IMG_20260809_173510.jpg">
 <img src="IMG_20260809_173515.jpg">
 <img src="IMG_20260809_173517.jpg">
@@ -82,10 +99,15 @@ En dehors de ces réparations, le bateau est en bon état général.
 <img src="IMG_20260809_173542.jpg">
 <img src="IMG_20260809_173546.jpg">
 <img src="IMG_20260809_173548.jpg">
+
 <img src="IMG_20260809_173559.jpg">
 <img src="IMG_20260809_173608.jpg">
+
+### Safrans 
 <img src="IMG_20260809_173619.jpg">
 <img src="IMG_20260809_173627.jpg">
+
+### Autres photos
 <img src="IMG_20260809_173638.jpg">
 <img src="IMG_20260809_173650.jpg">
 <img src="IMG_20260809_173655.jpg">
@@ -155,16 +177,3 @@ En dehors de ces réparations, le bateau est en bon état général.
 
 ---
 
-## Vidéo
-
-- [Vidéo — VID_20260809_174341.mp4](./VID_20260809_174341.mp4)
-
----
-
-## En bref
-
-**Galaad 2 — Prototype Mini 650 de 1987, plan Auzepy-Brenneur.**
-
-Un bateau de course historique qui a continué à naviguer et régater jusqu'à cet été, avec une remise à neuf à prévoir notamment au niveau du safran bâbord et du plancher en CP.
-
-**Visible à Port de Bouc.**
