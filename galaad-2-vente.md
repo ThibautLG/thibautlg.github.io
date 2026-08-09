@@ -24,7 +24,7 @@ Retrouvez son historique sur [Histoire des halfs](https://www.histoiredeshalfs.c
 | Plan | Auzepy-Brenneur |
 | Tirant d'eau | 1,80 m |
 | Déplacement | 1 100 kg |
-| Moteur | Yamaha Matla 2 temps |
+| Moteur | Yamaha Malta 2 temps |
 | Bastaques | 2 |
 | Winchs | 4 |
 
